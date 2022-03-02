@@ -856,7 +856,11 @@ a.border-button:hover {
 }
 
 /*  */
-
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .sub-header ul.right-icons {
   float: right;
 }
@@ -1269,7 +1273,7 @@ ul.slick-dots {
 }
 
 .skills-item__i {
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: rgb(250, 112, 153);
 }
 .skills-item__p {
@@ -1316,6 +1320,12 @@ ul.slick-dots {
 }
 .items {
   text-align: center;
+}
+.items1 {
+  margin-top: 2rem;
+}
+.item-link {
+  color: #fff;
 }
 .items2 {
   margin-bottom: 20rem;
@@ -1778,12 +1788,12 @@ footer .contact-form button.filled-button:hover {
 /* Sub-footer Style */
 
 .sub-footer {
-  background-color: #343434;
   text-align: center;
   padding: 25px 0px;
 }
 
 .sub-footer p {
+  font-size: 0.8rem;
   color: #fff;
   font-weight: 300;
   letter-spacing: 0.5px;
