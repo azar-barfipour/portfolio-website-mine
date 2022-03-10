@@ -1327,6 +1327,27 @@ ul.slick-dots {
   border: 2px solid rgb(250, 112, 153);
   border-radius: 1rem;
 }
+.work-link h4 {
+  margin: 0;
+}
+.work-link h4:hover {
+  color: rgb(250, 112, 153);
+}
+.work-link a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.work-link a:hover {
+  color: rgb(250, 112, 153);
+}
+.work-link {
+  display: flex;
+  align-items: center;
+}
+.github-link {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
 /* contact */
 .contact-wrapper {
   margin: 20rem auto;
