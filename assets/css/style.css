@@ -1566,6 +1566,15 @@ header .navbar {
   h1 {
     font-size: 2rem;
   }
+  #tabs ul li a {
+    padding: 30px 30px;
+    font-size: 14px;
+    text-align: left;
+    background-color: rgb(29, 29, 29);
+  }
+  #tabs ul li a i {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   .sp-container h2 {
