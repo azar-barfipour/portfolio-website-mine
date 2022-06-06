@@ -1496,6 +1496,18 @@ header .navbar {
   max-width: 100%;
   overflow: hidden;
 }
+.img-api__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-api__wrapper img {
+  margin: 0 0.2rem;
+}
+.img-api__wrapper img:hover {
+  transform: scale(1.5);
+}
+
 .tabs-content h4 {
   font-size: 20px;
   font-weight: 700;
@@ -1569,7 +1581,7 @@ header .navbar {
   }
   #tabs ul li a {
     padding: 30px 0;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
   }
   #tabs ul li a i {
