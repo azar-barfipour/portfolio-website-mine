@@ -1570,6 +1570,12 @@ header .navbar {
     font-size: 1rem;
     margin-bottom: 0.2rem;
   }
+  .tabs-content h4 {
+    font-size: 15px;
+  }
+  .skills_wrapper {
+    margin: 20rem auto 25rem auto;
+  }
 }
 @media (max-width: 769px) {
   .sp-container h2 {
@@ -1592,6 +1598,12 @@ header .navbar {
   }
   .more-info .right-content h2 {
     margin-bottom: 0.5rem;
+  }
+  .img__works {
+    height: 200px;
+  }
+  .img-api__wrapper img {
+    height: 100px;
   }
 }
 @media (max-width: 500px) {
