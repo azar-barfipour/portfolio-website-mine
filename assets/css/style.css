@@ -1006,6 +1006,8 @@ header .navbar {
 .img__works {
   border: 2px solid rgb(250, 112, 153);
   border-radius: 1rem;
+  width: 500px;
+  height: 300px;
 }
 .work-link h4 {
   margin: 0;
@@ -1498,14 +1500,11 @@ header .navbar {
 }
 .img-api__wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
 }
 .img-api__wrapper img {
-  margin: 0 0.2rem;
-}
-.img-api__wrapper img:hover {
-  transform: scale(1.5);
+  margin-bottom: 0.2rem;
+  height: 150px;
 }
 
 .tabs-content h4 {
@@ -1562,17 +1561,20 @@ header .navbar {
     color: rgb(250, 112, 153) !important;
     border-bottom: none !important;
   }
+  .more-info .right-content h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .more-info .right-content p {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+  }
 }
 @media (max-width: 769px) {
   .sp-container h2 {
     font-size: 40px;
   }
-  .more-info .right-content h2 {
-    font-size: 26px;
-  }
-  .more-info .right-content p {
-    font-size: 18px;
-  }
+
   .contact-header {
     font-size: 25px;
   }
@@ -1587,6 +1589,9 @@ header .navbar {
   #tabs ul li a i {
     display: none;
   }
+  .more-info .right-content h2 {
+    margin-bottom: 0.5rem;
+  }
 }
 @media (max-width: 500px) {
   .sp-container h2 {
@@ -1595,9 +1600,7 @@ header .navbar {
   .contact-header {
     font-size: 20px;
   }
-  .more-info .right-content p {
-    font-size: 16px;
-  }
+
   h1 {
     font-size: 1.5rem;
   }
