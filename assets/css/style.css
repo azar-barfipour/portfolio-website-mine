@@ -1504,6 +1504,7 @@ header .navbar {
 }
 .img-api__wrapper img {
   margin-bottom: 0.2rem;
+  width: 400px;
   height: 150px;
 }
 
